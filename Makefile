@@ -1,7 +1,6 @@
 t = 12
 test:
-
 	rustlings run $(t)
 
-tset:
+all:
 	rustlings verify
