@@ -1,5 +1,7 @@
+t = 12
 test:
-	rustlings verify
+
+	rustlings run $(t)
 
 tset:
 	rustlings verify
