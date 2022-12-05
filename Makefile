@@ -4,3 +4,6 @@ test:
 
 all:
 	rustlings verify
+
+watch:
+	rustlings watch
